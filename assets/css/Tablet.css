@@ -1,4 +1,7 @@
+@charset "UTF-8";
+
 /* Tablet */
+
 @media (max-width: 768px) {
 
 	body:: before {

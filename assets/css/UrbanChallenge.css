@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body {
+	background-color: blue;
+	line-height: 1.5em;
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0, auto;
+	font-size: 80px;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 30px 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-align: left;
+  background: transparent;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+    margin: 0 auto;
+	margin-left: -2.5%
+}
+
+ul li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	height: 456px;
+	width: 305px;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+ul li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+
+ul.rig.columns-2 li {
+	width: 47.5%; /* this value + 2.5 should = 50% */
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; /* this value + 2.5 should = 33% */
+}
+/* class for 4 columns */
+ul.rig.columns-4 li {
+	width: 22.5%; /* this value + 2.5 should = 25% */
+
+/*li {
+	height: 456px;
+	width: 305px;
+	position: relative;
+}*/
+
+/* Mobile */
+
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul {
+		margin-left: 0;
+	}
+	ul li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+

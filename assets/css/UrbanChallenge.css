@@ -2,15 +2,15 @@
 
 body {
 	background-color: blue;
-	line-height: 1.5em;
 	height: 100%;
 	width: 100%;
 	padding: 0;
-	margin: 0, auto;
+	margin: 0;
 	font-size: 80px;
+	position: relative;
 }
 
-.wrapper {
+/*.wrapper {
   width: 100%;
   padding: 30px 0;
   margin: 0;
@@ -20,25 +20,26 @@ body {
   vertical-align: baseline;
   text-align: left;
   background: transparent;
-}
-
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
+}*/
 
 ul {
 	list-style-type: none;
-    margin: 0 auto;
-	margin-left: -2.5%
+    /*margin: 0 auto;
+	margin-left: -2.5%*/
+	text-align: center;
+	margin: 0 auto;
+	padding: 15px;
+	max-width: 1000px;
 }
 
 ul li {
 	display: inline-block;
 	padding: 10px;
-	margin: 0 0 2.5% 2.5%;
+	/*margin: 0 0 2.5% 2.5%;*/
 	background: #fff;
 	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
 	height: 456px;
 	width: 305px;
 	vertical-align: top;
@@ -51,7 +52,7 @@ ul li {
 ul li img {
 	max-width: 100%;
 	height: auto;
-	margin: 0 0 10px;
+	/*margin: 0 0 10px;*/
 }
 
 ul.rig.columns-2 li {

@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 * {
-	cursor: url('http://www.themesltd.com/tumblr/cursors/mouse-cursors/mouse-cursors.php?theme=pink_crumby_donut&path=random'), auto;
+	cursor: url('../img/pixelated_donut.png'), auto;
+	z-index: 99;
 }
 
 body {

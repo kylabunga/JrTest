@@ -2,7 +2,7 @@
 
 * {
 	cursor: url('../img/pixelated_donut.png'), auto;
-	z-index: 99;
+	z-index: 1;
 }
 
 body {
@@ -19,7 +19,6 @@ body {
 
 ul {
 	list-style-type: none;
-	/*margin-left: -2.5%*/
 	text-align: center;
 	margin: 0 auto;
 	padding: 20px 20px 0px 20px;
@@ -46,30 +45,21 @@ ul li img {
 	width: 305px;
 	height: auto;
 	display: block;
-	/*margin: 0 0 10px;*/
 }
 
 /* Mobile */
 
 @media (max-width: 480px) {
-	ul.grid-nav li {
-		display: block;
-		margin: 0 0 5px;
-	}
 	body {
 		font-size: 0px;
 	}
 
-	ul.grid-nav li a {
-		display: block;
-	}
 	ul {
 		margin-left: 0;
 		margin-right: 0;
 	}
+	
 	ul li {
-		/*width: 100% !important;*/
 		margin: 0 0 15px;
 	}
-	ul li img {
 }
